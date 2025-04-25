@@ -1,0 +1,100 @@
+/* Reset some basic elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the background color for the body */
+body {
+    background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #444;
+}
+
+/* Main login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+/* Styled login box */
+.login-box {
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Title inside the login box */
+.login-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* Styling for each input field */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Label for input fields */
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+/* Input fields */
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+/* Focus effect on input fields */
+.input-group input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #f96bb9;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect on button */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Additional hover and focus effects for input fields */
+.input-group input:focus, button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 128, 0, 0.5);
+}
